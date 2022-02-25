@@ -23,3 +23,5 @@ np.random.seed(1111)
 X, y = datasets.make_blobs(n_samples=n, shuffle=True, random_state=None, centers = 2, cluster_std = 2.0)
 plt.scatter(X[:,0], X[:,1])
 ```
+![0.png]({{ site.baseurl }}/_images/0.png)
+After we plug the data into scatter fig, we can see directly that the data are divided into two clusters.Thera
